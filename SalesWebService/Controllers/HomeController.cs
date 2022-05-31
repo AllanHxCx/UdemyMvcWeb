@@ -20,6 +20,12 @@ namespace SalesWebService.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["email"] = "alltronic@terra.com.br";
+            return View();
+        }
+        public IActionResult About()
+        {
+            ViewData["email"] = "alltronic@terra.com.br";
             return View();
         }
 
